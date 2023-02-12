@@ -6,14 +6,14 @@ body {
 }
 
 .date {
-    font-family: fantasy;
+    font-family: 'Source Sans Pro';
 }
 
 .newspaper-container {
     width: 700px;
     border: 5px #eee;
     border-radius: 20px;
-    box-shadow: 10px 10px 10px #a7a7a7;
+    box-shadow: 5px 5px 5px #a7a7a7;
     padding: 20px;
     margin: auto; /*this makes the article stay in the middle of the webpage!!*/
     margin-top: 50px;
@@ -21,15 +21,30 @@ body {
 }
 
 .more-articles {
-    display: inline-block;
-    width: 300px;
-    font-size: smaller;
+    /* display: inline-block; */
+    /* width: 300px; */
+    /*font-size: smaller;*/
     margin: 0;
     padding: 0;
+    display: flex;
+}
+
+.more-articles img {
+    /*padding: 10px;
+    margin: 10px;*/
 }
 
 section {
     display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 main img {
@@ -50,7 +65,7 @@ h4 {
 }
 
 h5 {
-    font-family: arial;
+    font-family: Abril Fatface;
     font-weight: 900;
     color: red;
 }
@@ -59,6 +74,10 @@ nav {
     text-align: center;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: white;
 }
 
 ul {
