@@ -1,7 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
-.date{
+body {
+    background: lightgray;
+}
+
+.date {
     font-family: fantasy;
+}
+
+.newspaper-container {
+    width: 700px;
+    border: 5px #eee;
+    border-radius: 20px;
+    box-shadow: 10px 10px #ddd;
+    padding: 20px;
+    margin: auto; /*this makes the article stay in the middle of the webpage!!*/
+    margin-top: 50px;
+    background: white;
+}
+
+.more-articles {
+    display: inline-block;
+    width: 400px;
 }
 
 h1 {
@@ -10,7 +30,7 @@ h1 {
 }
 
 h2 {
-    font-family: sans-serif;
+    font-family: Roboto Slab;
 }
 
 h4 {
@@ -23,27 +43,38 @@ h5 {
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: none; /*to get rid of bullets*/
+    padding: 0;
+    margin: 0;
     text-align: center;
+    border-top: 1px;
+    border-bottom: 1px;
   }
 
 li {
     display: inline-block;
     font-family: Arial;
-    font-size: smaller;
+    font-size: 12px;
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
 
 a {
     text-decoration: none;
-    color: rgb(129, 129, 129);
+    color: #777;
 }
 
-main {
-    background: lightgrey;
-}
+/* main { */
+    /* background: lightgrey; */
+/* } */
 
 p {
-    font-family: trebuchet MS;
+    font-family: Source Sans Pro;
+}
+
+
+
+nav {
+    border-top: 10px;
+    border-bottom: 10px;
 }
